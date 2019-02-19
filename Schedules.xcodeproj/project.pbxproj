@@ -12,6 +12,10 @@
 		5E63D963221C2F2C007DACEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E63D961221C2F2C007DACEF /* Main.storyboard */; };
 		5E63D965221C2F2D007DACEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E63D964221C2F2D007DACEF /* Assets.xcassets */; };
 		5E63D968221C2F2D007DACEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E63D966221C2F2D007DACEF /* LaunchScreen.storyboard */; };
+		5E63D970221C2F4C007DACEF /* SchedulePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E63D96F221C2F4C007DACEF /* SchedulePicker.swift */; };
+		5E63D972221C3A14007DACEF /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E63D971221C3A14007DACEF /* UserDefaults.swift */; };
+		5E63D975221C6331007DACEF /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E63D974221C6331007DACEF /* Schedule.swift */; };
+		5E63D977221C644F007DACEF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E63D976221C644F007DACEF /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5E63D964221C2F2D007DACEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E63D967221C2F2D007DACEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E63D969221C2F2D007DACEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E63D96F221C2F4C007DACEF /* SchedulePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePicker.swift; sourceTree = "<group>"; };
+		5E63D971221C3A14007DACEF /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		5E63D974221C6331007DACEF /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		5E63D976221C644F007DACEF /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,28 @@
 				5E63D964221C2F2D007DACEF /* Assets.xcassets */,
 				5E63D966221C2F2D007DACEF /* LaunchScreen.storyboard */,
 				5E63D969221C2F2D007DACEF /* Info.plist */,
+				5E63D978221C6A57007DACEF /* SchedulePicker */,
+				5E63D973221C3CB0007DACEF /* Extensions */,
 			);
 			path = Schedules;
+			sourceTree = "<group>";
+		};
+		5E63D973221C3CB0007DACEF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E63D971221C3A14007DACEF /* UserDefaults.swift */,
+				5E63D976221C644F007DACEF /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E63D978221C6A57007DACEF /* SchedulePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5E63D974221C6331007DACEF /* Schedule.swift */,
+				5E63D96F221C2F4C007DACEF /* SchedulePicker.swift */,
+			);
+			path = SchedulePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E63D972221C3A14007DACEF /* UserDefaults.swift in Sources */,
+				5E63D977221C644F007DACEF /* UIColor.swift in Sources */,
 				5E63D960221C2F2C007DACEF /* ViewController.swift in Sources */,
+				5E63D970221C2F4C007DACEF /* SchedulePicker.swift in Sources */,
+				5E63D975221C6331007DACEF /* Schedule.swift in Sources */,
 				5E63D95E221C2F2C007DACEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
